@@ -11,8 +11,8 @@ CMD - to set the default command to execute when the container starts
 EXPOSE - to expose an application port 
 
 
-## set the base image. Since we're running 
-# a Python application a Python base image is used
+### set the base image. Since we're running 
+ a Python application a Python base image is used
 FROM python:3.8
 # set a key-value label for the Docker image
 LABEL maintainer="Katie Gamanji"
